@@ -1,0 +1,13 @@
+@import "../../assets/scss/_variables";
+
+.header {
+  background-color: $header-color;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px;
+    color: $white;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../assets/scss/_variables";
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: $white;
+  border-radius: 20px;
+  padding: 4px 8px;
+  &-item {
+    display: flex;
+    align-items: center;
+    > label {
+      color: $dark;
+    }
+  }
+}
